@@ -82,22 +82,22 @@ Created: May, 2014
 <div id="home">
 
 	<div style="float:left;">
-	<span style="font-family:'Fauna One', serif;font-size:35px;">Dhananjay Bhaskar &nbsp; </span>
-	<span style="font-family:'Fauna One', serif;font-size:35px;">(Personal Website)</span>
+	<span style="font-family:'Fauna One', serif;font-size:35px;">Dhananjay Bhaskar</span>
 	</div>
 	
-	<div style="clear:both;"></div><br/>
+	<div style="clear:both;"></div>
 	
 </div>
 
 
 <div id="profile">
-	<img src="profile.png"/>
 	
 	<div id="profile_left" class="d_left">
-	<br><br>
-	I am a graduate (M.Sc.) student studying Applied Mathematics and Computer Science at the 
-	<a href="http://www.iam.ubc.ca">University of British Columbia</a>, Vancouver.
+	<br>
+	I am a doctoral candidate (3rd year Ph.D.) in Biomedical Engineering and Data Science at 
+	<a href="https://www.brown.edu/research/labs/wong/people">Brown University</a>. I received a 
+	master's degree (M.Sc.) from the <a href="https://www.iam.ubc.ca/">Institute of Applied Mathematics</a> 
+	at the University of British Columbia.
 	</div>
 	
 	<div id="profile_right" class="d_right">
@@ -114,10 +114,11 @@ Created: May, 2014
 				height: '300'
 			},
 			title:{
-				text: 'Skills and Interests'
+				text: 'Skills & Interests'
 			},
 			xAxis:{
-				categories: ['HTML, CSS, JS', 'PHP, jQuery, SQL', 'MATLAB, Python, Bash', 'Java, Perl, C/C++'],
+				categories: ['MATLAB, Python, R', 'Java, Julia, C/C++', 
+					     'OpenMP, MPI, CUDA', 'HTML, CSS, JS', 'PHP, jQuery, SQL'],
 				title: {
 					text: null
 				}
@@ -142,7 +143,7 @@ Created: May, 2014
 			},
 			series: [{
 				name: 'Experience',
-				data: [5, 3, 4, 2]
+				data: [6, 3, 2, 5, 2]
 			}]			
 		});
 	});
@@ -151,14 +152,64 @@ Created: May, 2014
 
 
 <div id="rsearch">
-	<img src="search.png"/><br/>
-	<h3>Page under construction.</h3>
-	<div style="clear:both;"></div>
+
+	<div style="float:left;">
+	<span style="font-family:'Fauna One', serif;font-size:35px;">Research</span>
+	</div>
+	
+	<div style="clear:both;"></div><br/><br/>
+
+	<ol reversed style="line-height:150%;font-size:18px;">
+
+	<li style="margin: 20px 0;">A methodology for morphological feature extraction and unsupervised cell classification.
+	<b>Bhaskar, D.</b>, Lee, D., Kn&uacute;tsd&oacute;ttir, H., Tan, C., Zhang, M., Dean, P., Roskelley, C., Keshet, L. 
+	[<a href="https://www.biorxiv.org/content/10.1101/623793v1.abstract">preprint</a>]
+	</li>
+
+	<li style="margin: 20px 0;">Analyzing collective motion with machine learning and topology. 
+	<b>Bhaskar, D.</b>, Manhart, A., Milzman, J., Nardini, J., Storey, K., Topaz, C., Ziegelmeier, L.
+	<a href="https://aip.scitation.org/doi/10.1063/1.5125493">Chaos</a> 29 (12), 123125, 2019. [<a href="https://arxiv.org/abs/1908.09081">preprint</a>]
+	</li>
+
+	<li style="margin: 20px 0;">Breast Cancer Cells Transition from Mesenchymal to Amoeboid Migration in Tunable Three-Dimensional Silk-Collagen Hydrogels.
+	Khoo, A., Valentin, T., Leggett, S., <b>Bhaskar, D.</b>, Bye, E., Benmelech, S., Ip, B., Wong, I.
+	<a href="https://pubs.acs.org/doi/abs/10.1021/acsbiomaterials.9b00519">ACS Biomaterials Science &amp; Engineering</a> 5 (9), 4341-4354, 2019.
+	</li>
+
+	<li style="margin: 20px 0;">Motility-limited aggregation of mammary epithelial cells into fractal-like clusters.
+	Leggett, S., Neronha, Z., <b>Bhaskar, D.</b>, Sim, J., Perdikari, M., Wong, I.
+	<a href="https://www.pnas.org/content/116/35/17298.short">PNAS</a> 116 (35), 17298-17306, 2019.
+	</li>
+
+	<li style="margin: 20px 0;">3D printed self-adhesive PEGDA-PAA hydrogels as modular components for soft actuators and microfluidics.
+	Valentin, T., DuBois, E., Machnicki, C., <b>Bhaskar, D.</b>, Cui, F., Wong, I.
+	<a href="https://pubs.rsc.org/ko/content/articlehtml/2019/py/c9py00211a">Polymer Chemistry</a> 10 (16), 2015-2028, 2019.
+	</li>
+
+	<li style="margin: 20px 0;">Coupling mechanical tension and GTPase signaling to generate cell and tissue dynamics.
+	Zmurchock, C., <b>Bhaskar, D.</b>, Keshet, L.
+	<a href="https://iopscience.iop.org/article/10.1088/1478-3975/aab1c0/meta">Physical Biology</a>, 5 (4), 046004, 2018.
+	</li>
+
+	<li>Polarization and migration in the zebrafish posterior lateral line system.
+	Kn&uacute;tsd&oacute;ttir, H., Zmurchock, C., <b>Bhaskar, D.</b>, Palsson, E., Nogare, D., Chitnis, A., Keshet, L.
+	<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005451&rev=2">PLoS Computational Biology</a>, 13 (4), e1005451, 2017.
+	</li>
+
+	</ol>
+
+	<div style="clear:both;"></div><br/><br/>
 </div>
 
 
 <div id="projs">
-	<img src="proj.png"/>
+	
+	<div style="float:left;">
+	<span style="font-family:'Fauna One', serif;font-size:35px;">Projects</span>
+	</div>
+	
+	<div style="clear:both;"></div>
+	<br/><br/>
 	
 	<div id="slides1" class="slides">
 		<img src="projects/s1i1.png"/>
@@ -224,6 +275,8 @@ Created: May, 2014
 	</div>
 	
 	<div style="clear:both;"></div>
+	<div style="padding:0px 0px 30px 0px"></div>
+	<div style="border-top:4px solid black;padding:0px 0px 30px 0px"></div><br/>
 </div>
 
 <script type="text/javascript">
@@ -247,22 +300,29 @@ Created: May, 2014
 
 
 <div id="git">
-	<img src="getintouch.png"/>
+	
+	<div style="float:left;">
+	<span style="font-family:'Fauna One', serif;font-size:35px;">Contact</span>
+	</div>
+	
+	<div style="clear:both;"></div>
+	<br/><br/>
 	
 	<div id="git_left" class="d_left">
-	<center><br>
-	<a href="http://github.com/dbhaskar92" title="GitHub"><img src="github.png" width="64" height="64"/><a>
+	<center>
+	<a href="http://github.com/dbhaskar92"><img src="github.png" width="64" height="64"/><a>
 	&nbsp; &nbsp; &nbsp;
-	<a href="http://ca.linkedin.com/pub/dhananjay-bhaskar/62/913/533" title="LinkedIn"><img src="lkin.png" width="64" height="64"/></a>
-	<br><br>
-	<a href="http://twitter.com/dbhaskar92" title="Twitter"><img src="twitter.png" width="60" height="60"/></a>
+	<a href="https://www.linkedin.com/in/dhananjay-bhaskar-53391362"><img src="lkin.png" width="64" height="64"/></a>
 	&nbsp; &nbsp; &nbsp;
-	<a href="http://facebook.com/dbhaskar92" title="Facebook"><img src="facebook.png" width="60" height="60"/></a>
+	<a href="http://twitter.com/dbhaskar92"><img src="twitter.png" width="60" height="60"/></a>
+	&nbsp; &nbsp; &nbsp;
+	<a href="http://facebook.com/dbhaskar92"><img src="facebook.png" width="60" height="60"/></a>
 	</center>
 	</div>
 	
 	<div id="git_right" class="d_right">
-	<img id="footer_map" src="http://maps.googleapis.com/maps/api/staticmap?center=49.26698,-123.25396&zoom=13&size=400x250&markers=color:blue%7C49.26698,-123.25396&sensor=false"/>
+	<center>	
+	</center>
 	</div>
 	
 	<div style="clear:both"></div><br>
