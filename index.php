@@ -12,7 +12,7 @@ Created: May, 2014
 	$firefox = strpos($_SERVER["HTTP_USER_AGENT"], 'Firefox') ? true : false;
 	$safari = strpos($_SERVER["HTTP_USER_AGENT"], 'Safari') ? true : false;
 	$chrome = strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
-?> 
+?>
 
 <head>
 
@@ -28,7 +28,7 @@ Created: May, 2014
 <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
-  
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 <script src="http://code.highcharts.com/highcharts.js"></script>
@@ -47,26 +47,26 @@ Created: May, 2014
 		<div class="menu_item" id="menu_projects"><span class="menu_icon"><img src="projects.png"/></span>Projects</div>
 		<div class="menu_item_empty"></div>
 		<div class="menu_item" id="menu_contact"><span class="menu_icon"><img src="contact.png"/></span>Contact</div>
-		
+
 		<script type="text/javascript">
 			$('#menu_projects').click(function(){
 				$('html, body').animate({
 					scrollTop: $('#projs').offset().top
 				}, 500);
 			});
-			
+
 			$('#menu_home').click(function(){
 				$('html, body').animate({
 					scrollTop: $('#profile').offset().top
 				}, 500);
 			});
-			
+
 			$('#menu_research').click(function(){
 				$('html, body').animate({
 					scrollTop: $('#rsearch').offset().top
 				}, 500);
 			});
-			
+
 			$('#menu_contact').click(function(){
 				$('html, body').animate({
 					scrollTop: $('#git').offset().top
@@ -84,27 +84,27 @@ Created: May, 2014
 	<div style="float:left;">
 	<span style="font-family:'Fauna One', serif;font-size:35px;">Dhananjay Bhaskar</span>
 	</div>
-	
+
 	<div style="clear:both;"></div>
-	
+
 </div>
 
 
 <div id="profile">
-	
+
 	<div id="profile_left" class="d_left">
 	<br>
-	I am a doctoral candidate (3rd year Ph.D.) in Biomedical Engineering and Data Science at 
-	<a href="https://www.brown.edu/research/labs/wong/people">Brown University</a>. I received a 
-	master's degree (M.Sc.) from the <a href="https://www.iam.ubc.ca/">Institute of Applied Mathematics</a> 
+	I am a doctoral candidate (3rd year Ph.D.) in Biomedical Engineering and Data Science at
+	<a href="https://www.brown.edu/research/labs/wong/people">Brown University</a>. I received a
+	master's degree (M.Sc.) from the <a href="https://www.iam.ubc.ca/">Institute of Applied Mathematics</a>
 	at the University of British Columbia.
 	</div>
-	
+
 	<div id="profile_right" class="d_right">
 	</div>
 
 	<div style="clear:both;"></div>
-	
+
 	<script type="text/javascript">
 	$(function(){
 		$('#profile_right').highcharts({
@@ -117,7 +117,7 @@ Created: May, 2014
 				text: 'Skills & Interests'
 			},
 			xAxis:{
-				categories: ['MATLAB, Python, R', 'Java, Julia, C/C++', 
+				categories: ['MATLAB, Python, R', 'Java, Julia, C/C++',
 					     'OpenMP, MPI, CUDA', 'HTML, CSS, JS', 'PHP, jQuery, SQL'],
 				title: {
 					text: null
@@ -144,7 +144,7 @@ Created: May, 2014
 			series: [{
 				name: 'Experience',
 				data: [6, 3, 2, 5, 2]
-			}]			
+			}]
 		});
 	});
 	</script>
@@ -156,44 +156,49 @@ Created: May, 2014
 	<div style="float:left;">
 	<span style="font-family:'Fauna One', serif;font-size:35px;">Research</span>
 	</div>
-	
+
 	<div style="clear:both;"></div><br/><br/>
 
 	<ol reversed style="line-height:150%;font-size:18px;">
 
-	<li style="margin: 20px 0;">A methodology for morphological feature extraction and unsupervised cell classification.
-	<b>Bhaskar, D.</b>, Lee, D., Kn&uacute;tsd&oacute;ttir, H., Tan, C., Zhang, M., Dean, P., Roskelley, C., Keshet, L. 
-	[<a href="https://www.biorxiv.org/content/10.1101/623793v1.abstract">preprint</a>]
+	<li style="margin: 20px 0;">Topological Data Analysis of Collective and Individual Phases in a Minimal Model of Epithelial Cells.
+	<b>Bhaskar, D.</b>, Zhang, W., Wong, I.
+	[<a href="https://arxiv.org/abs/2003.10008">arXiv preprint</a>]
 	</li>
 
-	<li style="margin: 20px 0;">Analyzing collective motion with machine learning and topology. 
+	<li style="margin: 20px 0;">A Methodology for Morphological Feature Extraction and Unsupervised Cell Classification.
+	<b>Bhaskar, D.</b>, Lee, D., Kn&uacute;tsd&oacute;ttir, H., Tan, C., Zhang, M., Dean, P., Roskelley, C., Keshet, L.
+	[<a href="https://www.biorxiv.org/content/10.1101/623793v1.abstract">bioRxiv preprint</a>]
+	</li>
+
+	<li style="margin: 20px 0;">Analyzing Collective Motion with Machine Learning and Topology.
 	<b>Bhaskar, D.</b>, Manhart, A., Milzman, J., Nardini, J., Storey, K., Topaz, C., Ziegelmeier, L.
-	<a href="https://aip.scitation.org/doi/10.1063/1.5125493">Chaos</a> 29 (12), 123125, 2019. [<a href="https://arxiv.org/abs/1908.09081">preprint</a>]
+	<a href="https://aip.scitation.org/doi/10.1063/1.5125493">Chaos 29 (12), 123125, 2019.</a>
 	</li>
 
 	<li style="margin: 20px 0;">Breast Cancer Cells Transition from Mesenchymal to Amoeboid Migration in Tunable Three-Dimensional Silk-Collagen Hydrogels.
 	Khoo, A., Valentin, T., Leggett, S., <b>Bhaskar, D.</b>, Bye, E., Benmelech, S., Ip, B., Wong, I.
-	<a href="https://pubs.acs.org/doi/abs/10.1021/acsbiomaterials.9b00519">ACS Biomaterials Science &amp; Engineering</a> 5 (9), 4341-4354, 2019.
+	<a href="https://pubs.acs.org/doi/abs/10.1021/acsbiomaterials.9b00519">ACS Biomaterials Science &amp; Engineering 5 (9), 4341-4354, 2019.</a>
 	</li>
 
-	<li style="margin: 20px 0;">Motility-limited aggregation of mammary epithelial cells into fractal-like clusters.
+	<li style="margin: 20px 0;">Motility-limited Aggregation of Mammary Epithelial Cells into Fractal-like Clusters.
 	Leggett, S., Neronha, Z., <b>Bhaskar, D.</b>, Sim, J., Perdikari, M., Wong, I.
-	<a href="https://www.pnas.org/content/116/35/17298.short">PNAS</a> 116 (35), 17298-17306, 2019.
+	<a href="https://www.pnas.org/content/116/35/17298.short">PNAS 116 (35), 17298-17306, 2019.</a>
 	</li>
 
-	<li style="margin: 20px 0;">3D printed self-adhesive PEGDA-PAA hydrogels as modular components for soft actuators and microfluidics.
+	<li style="margin: 20px 0;">3D Printed Self-adhesive PEGDA-PAA Hydrogels as Modular Components for Soft Actuators and Microfluidics.
 	Valentin, T., DuBois, E., Machnicki, C., <b>Bhaskar, D.</b>, Cui, F., Wong, I.
-	<a href="https://pubs.rsc.org/ko/content/articlehtml/2019/py/c9py00211a">Polymer Chemistry</a> 10 (16), 2015-2028, 2019.
+	<a href="https://pubs.rsc.org/ko/content/articlehtml/2019/py/c9py00211a">Polymer Chemistry 10 (16), 2015-2028, 2019.</a>
 	</li>
 
-	<li style="margin: 20px 0;">Coupling mechanical tension and GTPase signaling to generate cell and tissue dynamics.
+	<li style="margin: 20px 0;">Coupling Mechanical Tension and GTPase Signaling to Generate Cell and Tissue Dynamics.
 	Zmurchock, C., <b>Bhaskar, D.</b>, Keshet, L.
-	<a href="https://iopscience.iop.org/article/10.1088/1478-3975/aab1c0/meta">Physical Biology</a>, 5 (4), 046004, 2018.
+	<a href="https://iopscience.iop.org/article/10.1088/1478-3975/aab1c0/meta">Physical Biology, 5 (4), 046004, 2018.</a>
 	</li>
 
-	<li>Polarization and migration in the zebrafish posterior lateral line system.
+	<li>Polarization and Migration in the Zebrafish Posterior Lateral Line System.
 	Kn&uacute;tsd&oacute;ttir, H., Zmurchock, C., <b>Bhaskar, D.</b>, Palsson, E., Nogare, D., Chitnis, A., Keshet, L.
-	<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005451&rev=2">PLoS Computational Biology</a>, 13 (4), e1005451, 2017.
+	<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005451&rev=2">PLoS Computational Biology, 13 (4), e1005451, 2017.</a>
 	</li>
 
 	</ol>
@@ -203,23 +208,23 @@ Created: May, 2014
 
 
 <div id="projs">
-	
+
 	<div style="float:left;">
 	<span style="font-family:'Fauna One', serif;font-size:35px;">Projects</span>
 	</div>
-	
+
 	<div style="clear:both;"></div>
 	<br/><br/>
-	
+
 	<div id="slides1" class="slides">
 		<img src="projects/s1i1.png"/>
 		<img src="projects/s1i2.png"/>
-	</div>	
-	
+	</div>
+
 	<div class="proj_desc">
 	<span class="proj_heading">Online Presentation Creator (2013)</span><br>
 	<span class="proj_subheading">A HTML 5 Web Application</span><br>
-	
+
 	<br/>Designed to facilitate creation of health and wellness e-Learning modules for Clinemetrica Inc.<br/><br/>
 	<b>Features :</b><br/>
 	<ul style="line-height:150%;">
@@ -229,16 +234,16 @@ Created: May, 2014
 	<li>User tracking capability to monitor viewing time for each slide</li>
 	</ul>
 	</div>
-	
+
 	<div style="clear:both;"></div>
 	<div style="padding:0px 0px 30px 0px"></div>
 	<div style="border-top:4px solid black;padding:0px 0px 30px 0px"></div>
-	
+
 	<div id="slides2" class="slides">
 		<img src="projects/s2i1.png"/>
 		<img src="projects/s2i2.png"/>
-	</div>	
-	
+	</div>
+
 	<div class="proj_desc">
 	<span class="proj_heading">Clinemetrica Inc. Web Interface (2013)</span><br>
 	<span class="proj_subheading">Database Front-end and Data Analysis Tool</span><br>
@@ -251,15 +256,15 @@ Created: May, 2014
 	<li>Organises information in neat graphs using HighCharts JS</li>
 	</ul>
 	</div>
-	
+
 	<div style="clear:both;"></div>
 	<div style="padding:0px 0px 30px 0px"></div>
 	<div style="border-top:4px solid black;padding:0px 0px 30px 0px"></div>
-	
+
 	<div class="proj_desc">
 	<span class="proj_heading">Educational Simulations (2011)</span><br>
 	<span class="proj_subheading">Java Applets and HTML5 Applications</span><br>
-	
+
 	<br/>Created educational simulations demonstrating concepts in physics, computer science and mathematics.<br><br>
 	The example on the right illustrates Monte Carlo methodology.<br/><br/>
 	<b>Features :</b><br/>
@@ -269,11 +274,11 @@ Created: May, 2014
 	<li>Advanced mechanics and electrodynamics simulations created using <a href="http://fem.um.es/Ejs/">EJS</a> framework</li>
 	</ul>
 	</div>
-	
+
 	<div style="float:right;">
 	<? include('experiments.html'); ?>
 	</div>
-	
+
 	<div style="clear:both;"></div>
 	<div style="padding:0px 0px 30px 0px"></div>
 	<div style="border-top:4px solid black;padding:0px 0px 30px 0px"></div><br/>
@@ -300,14 +305,14 @@ Created: May, 2014
 
 
 <div id="git">
-	
+
 	<div style="float:left;">
 	<span style="font-family:'Fauna One', serif;font-size:35px;">Contact</span>
 	</div>
-	
+
 	<div style="clear:both;"></div>
 	<br/><br/>
-	
+
 	<div id="git_left" class="d_left">
 	<center>
 	<a href="http://github.com/dbhaskar92"><img src="github.png" width="64" height="64"/><a>
@@ -319,12 +324,12 @@ Created: May, 2014
 	<a href="http://facebook.com/dbhaskar92"><img src="facebook.png" width="60" height="60"/></a>
 	</center>
 	</div>
-	
+
 	<div id="git_right" class="d_right">
-	<center>	
+	<center>
 	</center>
 	</div>
-	
+
 	<div style="clear:both"></div><br>
 </div>
 
